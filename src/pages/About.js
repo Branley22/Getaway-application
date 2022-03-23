@@ -5,8 +5,6 @@ import about3 from '../assets/about3.jpeg';
 import '../styles/About.css';
 
 const About = (props) => {
-  
-
   return (
     <div className="about">
       <h1>Exciting Trips for you!</h1>

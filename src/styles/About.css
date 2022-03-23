@@ -78,6 +78,13 @@
   margin-top: 20px;
 }
 
+.about-more-info {
+  border: none;
+  color: purple;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 768px) {
   .about-content {
     flex-direction: row;

@@ -14,7 +14,7 @@ const About = (props) => {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, or incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut. Cupidatat non proident, sunt in culpa.</p>
             <h3>Enjoy the scenery each trip offers</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, or incididunt ut labore et dolore magna</p>
-            <button className="about-more-info"></button>
+            <button className="about-more-info">Learn more</button>
         </div>
         <div className="about-right">
           <img class="about1-pic" src={about1} width="300px" height="200px" alt="island background"/>

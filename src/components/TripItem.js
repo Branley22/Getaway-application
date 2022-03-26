@@ -33,7 +33,7 @@ const TripItem = (props) => {
           <h1>Amentites</h1>
           <h2>What this trip offers</h2>
           <div className="trip-amentites">
-            <li>Food Included / Room Services<RestaurantIcon/></li>
+            <li>Food Included<RestaurantIcon/></li>
             <li>Wifi<WifiIcon/></li>
             <li>Shower & Bath<ShowerIcon/></li>
             <li>Discounted Taxi Services<LocalTaxiIcon/></li>

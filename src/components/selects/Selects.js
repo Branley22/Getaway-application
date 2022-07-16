@@ -13,12 +13,12 @@ const Selects = () => {
   return (
     <div name='views' className='selects'>
       <div className='container'>
-        <SelectsImg bgImg={BoraBora} text='Bora Bora' />
-        <SelectsImg bgImg={BoraBora2} text='Bora Bora 2' />
-        <SelectsImg bgImg={Hawaii} text='Hawaii' />
-        <SelectsImg bgImg={Hawaii2} text='Hawaii2' />
-        <SelectsImg bgImg={Hawaii3} text='Hawaii3' />
-        <SelectsImg bgImg={Keywest} text='Keywest' />
+        <SelectsImg bgImg={BoraBora} text='Bora Bora' text2='Deluxe Package' />
+        <SelectsImg bgImg={BoraBora2} text='Bora Bora ' text2='Standard Package' />
+        <SelectsImg bgImg={Hawaii} text='Hawaii' text2='Deluxe Package' />
+        <SelectsImg bgImg={Hawaii2} text='Hawaii' text2='Standard Package' />
+        <SelectsImg bgImg={Hawaii3} text='Hawaii' text2='Expedition Package' />
+        <SelectsImg bgImg={Keywest} text='Keywest' text2='Deluxe Package' />
       </div>
     </div>
   )

@@ -22,6 +22,15 @@ const SlideShow = () => {
         <div>
           <img src={Hawaii} alt='/' />
         </div>
+        <div>
+          <img src={Hawaii2} alt='/' />
+        </div>
+        <div>
+          <img src={Hawaii3} alt='/' />
+        </div>
+        <div>
+          <img src={Keywest} alt='/' />
+        </div>
       </Carousel>
     </div>
   )

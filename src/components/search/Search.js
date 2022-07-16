@@ -4,29 +4,29 @@ import Gold from '../../assets/gold.png';
 
 const Search = () => {
   return (
-    <div className='search'>
+    <div name='book' className='search'>
       <div className="container">
         <div className="left">
           <h2>LUXURY INCLUDED VACATIONS FOR TWO PEOPLE</h2>
           <p>Come experience the best all-inclusive vactions.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <div className="search-col-2">
-          <div className="box">
-            <div>
-              <img src={Gold} alt="/" style={{marginRight: '1rem'}} />
+          <div className="search-col-2">
+            <div className="box">
+              <div>
+                <img src={Gold} alt="/" style={{ marginRight: '1rem' }} />
+              </div>
+              <div>
+                <h3>WORLD'S LEADING</h3>
+                <p>ALL INCLUSIVE COMPANY FOR 10 YEARS IN-A-ROW</p>
+              </div>
             </div>
-            <div>
-              <h3>WORLD'S LEADING</h3>
-              <p>ALL INCLUSIVE COMPANY FOR 10 YEARS IN-A-ROW</p>
+            <div className="box">
+              <div>
+                <h3>NO ONE INCLUDES MORE</h3>
+                <p>ALL-INCLUSIVE COMPANY FOR 10 YEARS IN-A-ROW</p>
+                <button>View Packages</button>
+              </div>
             </div>
           </div>
-          <div className="box">
-            <div>
-              <h3>NO ONE INCLUDES MORE</h3>
-              <p>ALL-INCLUSIVE COMPANY FOR 10 YEARS IN-A-ROW</p>
-              <button>View Packages</button>
-            </div>
-          </div>
-        </div>
         </div>
         <div className="right">
           <div className="promo">

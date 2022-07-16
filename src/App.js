@@ -4,6 +4,7 @@ import Destinations from './components/destinations/Destinations';
 import Search from './components/search/Search';
 import Selects from './components/selects/Selects';
 import SlideShow from './components/slideShow/SlideShow';
+import Footer from './components/footer/Footer';
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <Search />
       <Selects />
       <SlideShow />
+      <Footer />
     </div>
   );
 }

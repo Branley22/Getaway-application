@@ -19,9 +19,9 @@ const Navbar = () => {
       <ul className='nav-menu'>
         <Link to='home' smooth={true} duration={500}><li>Home</li></Link>
         <Link to='destinations' smooth={true} duration={500}><li>Destinations</li></Link>
+        <Link to='slideshow' smooth={true} duration={500}><li>Travel</li></Link>
         <Link to='search' smooth={true} duration={500}><li>Book</li></Link>
         <Link to='views' smooth={true} duration={500}><li>Views</li></Link>
-        <Link to='slideshow' smooth={true} duration={500}><li>Travel</li></Link>
       </ul>
       <div className='nav-icons'>
         <BiSearch className='icon' style={{ marginRight: '1rem' }} />
@@ -32,11 +32,11 @@ const Navbar = () => {
       </div>
       <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
         <ul className="mobile-nav">
-          <li>Home</li>
-          <li>Destinations</li>
-          <li>Travel</li>
-          <li>Book</li>
-          <li>Views</li>
+          <Link to='home' smooth={true} duration={500}><li>Home</li></Link>
+          <Link to='destinations' smooth={true} duration={500}><li>Destinations</li></Link>
+          <Link to='slideshow' smooth={true} duration={500}><li>Travel</li></Link>
+          <Link to='search' smooth={true} duration={500}><li>Book</li></Link>
+          <Link to='views' smooth={true} duration={500}><li>Views</li></Link>
         </ul>
         <div className='mobile-menu-bottom'>
           <div className='menu-icons'>

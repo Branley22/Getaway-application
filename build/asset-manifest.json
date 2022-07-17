@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a2e51192.css",
-    "main.js": "/static/js/main.eb347e7a.js",
+    "main.js": "/static/js/main.2878b116.js",
     "static/media/getaway-home.mp4": "/static/media/getaway-home.cf7a1616c56c1805682c.mp4",
     "static/media/hawaii.jpg": "/static/media/hawaii.6af14842ad89a49e52c6.jpg",
     "static/media/keywest.jpg": "/static/media/keywest.bf04fb39bf885ce05dfd.jpg",
@@ -12,10 +12,10 @@
     "static/media/gold.png": "/static/media/gold.42f7d8f40c346adfe3a7.png",
     "index.html": "/index.html",
     "main.a2e51192.css.map": "/static/css/main.a2e51192.css.map",
-    "main.eb347e7a.js.map": "/static/js/main.eb347e7a.js.map"
+    "main.2878b116.js.map": "/static/js/main.2878b116.js.map"
   },
   "entrypoints": [
     "static/css/main.a2e51192.css",
-    "static/js/main.eb347e7a.js"
+    "static/js/main.2878b116.js"
   ]
 }
